@@ -9,20 +9,29 @@ html {
 }
 
 body {
+    width: 100%;
     height: 100vh;
     flex-direction: column;
     color: #ffffff;
     background-color: #435d6f;
     display: flex;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 25vh;
+    background-color: #ffffff;
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20%;
 }
 
 span {
     font-family: monospace;
     font-size: 3rem;
     color: #ffffff;
-    bottom: 10%;
 }
 
 .clock {
@@ -60,4 +69,14 @@ span {
     font-size: 4rem;
     font-weight: lighter;
     font-family: monospace;
+}
+
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
 }
